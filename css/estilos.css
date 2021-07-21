@@ -1,0 +1,385 @@
+
+/*Header*/
+
+header {
+  background-color: #f7f4ea;
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width:250px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.menu {
+  font-family: 'Roboto', sans-serif;
+  color:rgb(70, 66, 66);
+  margin: auto;
+ 
+}
+
+.contenedorMenu {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;   
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  flex: space-around;
+}
+
+nav a{
+  text-decoration:none;
+  color:inherit;
+  font-size:14px;
+  } 
+  nav ul li{
+  display:inline-block;
+  padding:5px 10px;
+  background-color:#80A1D4;
+  border:1px solid #80A1D4;
+  text-align:center;
+  color:#fff;
+  }
+  nav ul li:hover{
+  background-color:#fff;
+  color:#80A1D4;
+  }
+
+/*Footer*/
+Footer {
+  background-color: #f7f4ea;
+  box-sizing:border-box;
+  color: black;  
+  padding: 10px;
+  width: 100%;
+  height:150px;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fotoPagos {
+  width:150px;
+  height: 80px;
+}
+
+.fotoEnvios {
+  width:120px;
+  height: 50px;
+}
+
+.social {
+  width:40px;
+  height:40px;
+}
+
+.seccionPagos {
+  border: solid blue;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.seccionEnvios {
+  border: solid blue;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.seccionCreado {
+  border: solid blue;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.seccionRedes {
+  border: solid blue;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;   
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Pagina Index*/
+.tituloPrincipal {
+  font-size: 24px;
+  color: rgb(73, 101, 163);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.tituloSecundario {
+  font-size: 22px;
+  color: rgb(95, 133, 214);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.photo {
+  width:100%;
+  height:700px;
+}
+
+.bodyColor {
+  background-color: #f7f4ea;
+}
+
+/*Pagina Sobre Nosotros*/
+.tituloPrincipal {
+  font-size: 24px;
+  color: rgb(73, 101, 163);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.tituloSecundario {
+  font-size: 22px;
+  color: rgb(95, 133, 214);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.contenedorUno {
+  width: 100%;
+  height:800px;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.seccionNosotros {
+  background-color: #f7f4ea;
+  width: 600px;
+  height:600px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;   
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.seccionVideo {
+  width: 600px;
+  height:600px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.video {
+  width:600px;
+  height:600px;
+}
+
+/*Pagina Productos*/
+.tituloPrincipal {
+  font-size: 24px;
+  color: rgb(73, 101, 163);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.tituloSecundario {
+  font-size: 22px;
+  color: rgb(95, 133, 214);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+
+.SectionUno {
+  background-color: rgb(255, 255, 255);
+}
+
+.SectionDos {
+  background-color: whi;
+}
+
+.SectionTres {
+  background-color: rgb(255, 255, 255);
+}
+
+.producto {
+  width:300px;
+  height:300px;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #000;
+  width: 60%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: bottom;
+  padding: 0.3em;
+  color: #fff;
+  font-size: 16px;
+  background-color: rgb(95, 133, 214);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+/*Pagina Servicios*/
+.tituloPrincipal {
+  font-size: 24px;
+  color: rgb(73, 101, 163);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.tituloSecundario {
+  font-size: 22px;
+  color: rgb(95, 133, 214);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+#grilla {
+  display: grid; 
+width: 100%;
+height: 600px;
+  grid-template-rows: 3fr 1fr 1fr 2fr;
+}
+
+/*Pagina Contacto*/
+.tituloPrincipal {
+  font-size: 24px;
+  color: rgb(73, 101, 163);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.tituloSecundario {
+  font-size: 20px;
+  color: rgb(95, 133, 214);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.backgroundForm {
+  background-color: rgb(95, 133, 214);
+}
+
+.formTitulo {
+  color: rgb(70, 66, 66);
+}
+
+form {
+  font-family: 'Roboto', sans-serif;
+}
+
+.contenedorForm {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;   
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+
+/*Reglas Generales*/
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+h1 {
+  font-size: 24px;
+  color: rgb(70, 66, 66);
+  font-style: normal;
+  font-family: 'Be vietnam', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(70, 66, 66);
+  font-style: normal;
+  font-family: 'Be vietnam', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(70, 66, 66);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+
+h4 {
+  font-size: 16px;
+  color: rgb(70, 66, 66);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight:normal;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(70, 66, 66);
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight:normal;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;   
+  align-items: center;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=estilos.css.map */

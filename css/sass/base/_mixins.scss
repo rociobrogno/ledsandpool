@@ -1,0 +1,18 @@
+@mixin tipografiaBase($fuente, $tamanio, $estilo, $color, $bold, $line) {
+    font-family: $fuente;
+    font-size: $tamanio;
+    font-style: $estilo;
+    font-weight: $bold;
+    color: $color;
+    line-height: $line;
+}
+
+@mixin seccionUno ($fondo, $ancho) { 
+  background-color: $fondo;
+  width: $ancho;
+}
+
+@mixin seccionDos ($fondo, $ancho) { 
+  background-color: $fondo;
+  width: $ancho;
+}
