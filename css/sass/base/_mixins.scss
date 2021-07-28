@@ -7,9 +7,10 @@
     line-height: $line;
 }
 
-@mixin seccionUno ($fondo, $ancho) { 
+@mixin seccionUno ($fondo, $ancho, $margen) { 
   background-color: $fondo;
   width: $ancho;
+  margin: $margen
 }
 
 @mixin seccionDos ($fondo, $ancho) { 

@@ -53,6 +53,7 @@ nav a{
   color:#80A1D4;
   }
 
+
 /*Footer*/
 Footer {
   background-color: #f7f4ea;
@@ -128,7 +129,7 @@ Footer {
 
 /*Pagina Index*/
 .tituloPrincipal {
-  font-size: 24px;
+  font-size: 48px;
   color: rgb(73, 101, 163);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
@@ -144,6 +145,7 @@ Footer {
   font-weight: bold;
 
 }
+
 
 .photo {
   width:100%;
@@ -156,7 +158,7 @@ Footer {
 
 /*Pagina Sobre Nosotros*/
 .tituloPrincipal {
-  font-size: 24px;
+  font-size: 48px;
   color: rgb(73, 101, 163);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
@@ -170,6 +172,7 @@ Footer {
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+
 }
 
 .contenedorUno {
@@ -209,7 +212,7 @@ Footer {
 
 /*Pagina Productos*/
 .tituloPrincipal {
-  font-size: 24px;
+  font-size: 48px;
   color: rgb(73, 101, 163);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
@@ -265,7 +268,7 @@ Footer {
 
 /*Pagina Servicios*/
 .tituloPrincipal {
-  font-size: 24px;
+  font-size: 48px;
   color: rgb(73, 101, 163);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
@@ -281,6 +284,7 @@ Footer {
   font-weight: bold;
 
 }
+
 #grilla {
   display: grid; 
 width: 100%;
@@ -290,7 +294,7 @@ height: 600px;
 
 /*Pagina Contacto*/
 .tituloPrincipal {
-  font-size: 24px;
+  font-size: 48px;
   color: rgb(73, 101, 163);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
@@ -299,7 +303,7 @@ height: 600px;
 }
 
 .tituloSecundario {
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(95, 133, 214);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
@@ -307,26 +311,42 @@ height: 600px;
 
 }
 
-.backgroundForm {
-  background-color: rgb(95, 133, 214);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
 }
 
-.formTitulo {
-  color: rgb(70, 66, 66);
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: horizontal; 
 }
 
-form {
-  font-family: 'Roboto', sans-serif;
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
 }
 
-.contenedorForm {
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;   
-  align-items: center;
-  flex-direction: row;
-  width: 50%;
+form button hover{
+	background-color: #046193;
 }
+
+textarea { resize: none; }
 
 /*Reglas Generales*/
 body {
@@ -383,3 +403,16 @@ p {
 }
 
 /*# sourceMappingURL=estilos.css.map */
+
+/*CAJA TITULOS*/
+.cajaUno {
+  background: white;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .hijo {
+    background: red;
+    width: 120px;
+  }
