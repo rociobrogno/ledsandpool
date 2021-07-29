@@ -1,62 +1,10 @@
 
 /*Header*/
 
-header {
-  background-color: #f7f4ea;
-  width: 100%;
-  display: flex;
-  align-content: flex-start;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  width:250px;
-  display: flex;
-  align-content: flex-start;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.menu {
-  font-family: 'Roboto', sans-serif;
-  color:rgb(70, 66, 66);
-  margin: auto;
- 
-}
-
-.contenedorMenu {
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;   
-  align-items: center;
-  flex-direction: row;
-  display: flex;
-  flex: space-around;
-}
-
-nav a{
-  text-decoration:none;
-  color:inherit;
-  font-size:14px;
-  } 
-  nav ul li{
-  display:inline-block;
-  padding:5px 10px;
-  background-color:#80A1D4;
-  border:1px solid #80A1D4;
-  text-align:center;
-  color:#fff;
-  }
-  nav ul li:hover{
-  background-color:#fff;
-  color:#80A1D4;
-  }
-
-
 /*Footer*/
-Footer {
-  background-color: #f7f4ea;
+
+.footerCont {
+  background-color: #f8f9fa;
   box-sizing:border-box;
   color: black;  
   padding: 10px;
@@ -66,6 +14,10 @@ Footer {
   align-content: space-between;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.redesCont {
+  display: inline-block;
 }
 
 .fotoPagos {
@@ -81,6 +33,10 @@ Footer {
 .social {
   width:40px;
   height:40px;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 
 .seccionPagos {
@@ -146,6 +102,13 @@ Footer {
 
 }
 
+.descripcion {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .photo {
   width:100%;
@@ -185,7 +148,7 @@ Footer {
 }
 
 .seccionNosotros {
-  background-color: #f7f4ea;
+  background-color: #f8f9fa;
   width: 600px;
   height:600px;
   padding: 10px;
@@ -229,13 +192,15 @@ Footer {
 
 }
 
-
 .SectionUno {
   background-color: rgb(255, 255, 255);
 }
 
 .SectionDos {
-  background-color: whi;
+  background-color: white;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 }
 
 .SectionTres {
@@ -243,8 +208,13 @@ Footer {
 }
 
 .producto {
-  width:300px;
-  height:300px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .table {
@@ -287,9 +257,29 @@ Footer {
 
 #grilla {
   display: grid; 
-width: 100%;
-height: 600px;
+  width: 100%;
+  height: 600px;
   grid-template-rows: 3fr 1fr 1fr 2fr;
+  margin: 10%;
+  padding: 10%;
+}
+
+.cardUno {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1%;
+  padding: 1%;
+}
+
+.cardDos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 1%;
+  padding: 1%;
 }
 
 /*Pagina Contacto*/
@@ -315,8 +305,8 @@ height: 600px;
 form{
   padding: 60px;
   max-width: 400px;
-  background-color: #E7E7E7;
-  margin: 0 auto;
+  background-color: #80A1D4;
+  margin: 20px auto;
 }
 
 form input, form textarea{
@@ -372,7 +362,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  color: rgb(70, 66, 66);
+  color: rgb(95, 133, 214);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
@@ -380,7 +370,7 @@ h3 {
 
 h4 {
   font-size: 16px;
-  color: rgb(70, 66, 66);
+  color: black(70, 66, 66);
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   font-weight:normal;

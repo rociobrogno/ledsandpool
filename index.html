@@ -18,17 +18,24 @@
     <title>LEDS AND POOL</title>
 </head>
 <body>
-  <header>
-    <a href = "index.html"><img src=img/logo.png alt=LOGO class="logo"></a>
-    <nav class="contenedorMenu">
-    <ul class="menu">
-      <li><a href = "nosotros.html">Sobre Nosotros</a></li>
-      <li><a href = "productos.html">Productos</a></li>		
-      <li><a href = "servicios.html">Servicios</a></li>
-      <li><a href = "contacto.html">Contacto</a></li>
-    </ul>  
-   </nav>
-  </header>
+<header>
+  <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" alt="Logo Leds and Pool" width="200" height="200" class="d-inline-block align-top">
+    </a>
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+    <div class="navbar-nav text ms-auto text-center">
+      <a class="nav-item nav-link" href="nosotros.html">Sobre nosotros</a>
+      <a class="nav-item nav-link" href="productos.html">Productos</a>
+      <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+      <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+    </div>
+  </div>
+  </nav>
+</header>
   <section>
     <div class="cajaUno">
       <div class="tituloDiv" class="hijo">
@@ -39,12 +46,12 @@
   <section>
     <div class="cajaUno">
       <div class="tituloDiv" class="subtituloText">
-    <h2 class="tituloSecundario">Ilumina tu piscina</h2>
+        <h2 class="tituloSecundario">Ilumina tu piscina</h2>
     </div>
     </div>
   </section>
   <section>
-    <h4 class="textoCentrado">En Leeds & Pool, nuestro principal objetivo es brindar la mejor asistencia y asesoría en instalación, reparación y mantenimiento de piletas.</h4>
+    <h3 class="descripcion">En Leds & Pool, nuestro principal objetivo es brindar la mejor asistencia y asesoría en instalación, reparación y mantenimiento de piletas.</h3>
   </section>
   <section class="seccionDos">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -69,22 +76,12 @@
       </button>
     </div>
   </section>
-  <footer class="footer">
-    <div>
-      <img src="img/mediospagos.png" alt="Medios de Pago" class="fotoPagos">
-    </div>
-    <div>
-      <p><img src="img/correoargntino.png" alt="Envios Correo Argentino" class="fotoEnvios"></p>
-    </div>
-    <div>
-      <p>Creado por Rocío Brogno</p>
-    </div>
-    <div class="social">
-      <a href="https://www.instagram.com/ledsandpool/"><img src="img/instagram.png" alt="instagram" class="social"></a>
-    </div>
-    <div class="social">
-      <a href="https://wa.link/i485zf"><img src="img/whatsapp-2.png" alt="instagram" class="social"></a>
-    </div>
+  <footer class="footerCont">
+    <p>Podes encontrarnos en las redes</p>
+    <a href="#"><img src="img/facebook (2).svg" alt="facebook" class="social"></a>
+    <a href="https://www.instagram.com/ledsandpool/"><img src="img/instagram (2).svg" alt="instagram" class="social"></a>
+    <a href="https://wa.link/i485zf"><img src="img/whatsapp (2).svg" alt="whatsapp" class="social"></a>
+    <p>Creado por <a href="https://www.linkedin.com/in/roc%C3%ADo-brogno-659b0a185/" target="_blank">Rocio Brogno</a></p>
   </footer>
   <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
