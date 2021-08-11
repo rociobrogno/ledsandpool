@@ -1,13 +1,13 @@
 /*Header*/
+
 /*Footer*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400);
 .footerCont {
-  background-color: #f8f9fa;
+  background-color:#f8f9fa;
   box-sizing: border-box;
   color: black;
   padding: 10px;
   width: 100%;
-  height: 150px;
   display: flex;
   align-content: space-between;
   justify-content: space-evenly;
@@ -16,60 +16,12 @@
 .redesCont {
   display: inline-block; }
 
-.fotoPagos {
-  width: 150px;
-  height: 80px; }
-
-.fotoEnvios {
-  width: 120px;
-  height: 50px; }
-
 .social {
   width: 40px;
   height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-
-.seccionPagos {
-  border: solid blue;
-  width: 200px;
-  height: 100px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column; }
-
-.seccionEnvios {
-  border: solid blue;
-  width: 200px;
-  height: 100px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column; }
-
-.seccionCreado {
-  border: solid blue;
-  width: 200px;
-  height: 100px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column; }
-
-.seccionRedes {
-  border: solid blue;
-  width: 200px;
-  height: 100px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column; }
 
 /*Pagina Index*/
 .tituloPrincipal {
@@ -97,9 +49,6 @@
   width: 100%;
   height: 700px; }
 
-.bodyColor {
-  background-color: #f7f4ea; }
-
 /*Pagina Sobre Nosotros*/
 .tituloPrincipal {
   font-size: 48px;
@@ -124,27 +73,12 @@
   align-items: center; }
 
 .seccionNosotros {
-  background-color: #f8f9fa;
-  width: 600px;
-  height: 600px;
-  padding: 10px;
+  background-color:#f8f9fa;
+  width: 80%;
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
   flex-direction: column; }
-
-.seccionVideo {
-  width: 600px;
-  height: 600px;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: column; }
-
-.video {
-  width: 600px;
-  height: 600px; }
 
 /*Pagina Productos*/
 .tituloPrincipal {
@@ -171,16 +105,26 @@
   align-items: center; }
 
 .SectionTres {
-  background-color: white; }
+  background-color: white}
+
+.infoAd {
+  background-color: #5f85d6;
+}
 
 .producto {
-  width: 300px;
-  height: 300px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: auto; }
+  margin: auto; 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
+}
 
 .table {
   width: 100%;
@@ -201,6 +145,11 @@
   font-weight: normal; }
 
 /*Pagina Servicios*/
+
+.bodyServicios {
+  background-color: #f8f9fa;
+}
+
 .tituloPrincipal {
   font-size: 48px;
   color: #4965a3;
@@ -224,6 +173,7 @@
   padding: 10%; }
 
 .cardUno {
+  color: #494747;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -232,12 +182,17 @@
   padding: 1%; }
 
 .cardDos {
+  color: #494747;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-around;
   margin: 1%;
   padding: 1%; }
+
+ .accordion {
+  color: #494747;
+}
 
 /*Pagina Contacto*/
 .tituloPrincipal {
@@ -333,27 +288,13 @@ p {
   align-items: center;
   flex-direction: row; }
 
-/*# sourceMappingURL=estilos.css.map */
-/*CAJA TITULOS*/
-.cajaUno {
-  background: white;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.hijo {
-  background: red;
-  width: 120px; }
-
-/*# sourceMappingURL=estilos.css.map */
 /*GENERAL*/
 body {
   font-family: "roboto", sans-serif;
   font-size: 1rem;
   font-style: normal;
   color: white;
-  background-color: #f7f4ea;
+  background-color: white;
   width: 100%;
   height: 100vh; }
   body h1 {
@@ -392,14 +333,26 @@ body {
 /*RESPONSIVE*/
 @media only screen and (min-width: 768px) {
   .body {
-    background-color: #000000; } }
+    background-color: white; 
+    position: relative; } }
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   #grilla {
-    grid-template-columns: repeat(4, 1fr); }
-  .border {
-    border: 4px solid black;
-    background-color: blue; } }
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr; } }
+
+@media only screen and (min-width: 768px) and (min-width: 768px) {
+  .grilla {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; } }
+
+@media (max-width:560px){
+  footer{
+    position: relative;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 30px; } }
 
 @media only screen and (min-width: 768px) and (min-width: 1024px) {
   #grilla {
@@ -407,3 +360,5 @@ body {
   .border {
     border: 4px solid black;
     background-color: green; } }
+
+/*# sourceMappingURL=estilos.css.map */
